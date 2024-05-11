@@ -13,10 +13,9 @@
 /* DISEÑO HEADER */
 
 header{
-    color: var(color-secundario);
     background-color: black;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     padding: 30px;
     border: solid 1px red;
     height: 30px;
@@ -37,6 +36,7 @@ header div ul{
     display: flex;
     gap: 30px;
     color: red;
+    margin-left: 500px;
 }
 
 
@@ -82,5 +82,18 @@ justify-content: center;
 align-items: center;
 }
 
+/* Seccion categoria de productos */
 
+.Categ-prod{
+    background-color: var(--color-primario);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 10px;
+}
 
+.Categ-prod div img{
+    border-radius: 20px ;
+}
