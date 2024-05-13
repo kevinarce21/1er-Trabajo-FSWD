@@ -1,0 +1,1 @@
+Este es un trabajo practico donde se creo una pagina usando html y css donde la idea era crear un sitio donde se pudiera vender productos de la marca VANS dentro de la argentina aportando un catalogo, ofertas y datos para un posterior contacto, briuncando asi tambien la opcion de comprar via Whatsapp. 
