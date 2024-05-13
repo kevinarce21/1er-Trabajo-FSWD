@@ -9,9 +9,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Squada+One&display=swap" rel="stylesheet">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" rel="stylesheet">
+   
 </head>
 <body>
+
     <!-- HEADER -->
 
 
@@ -47,7 +49,7 @@
 
 <section class="Categ-prod"> 
     <div>
-        <a href="">
+        <a class="promo1" href="">
             <img src="images/Ropa-Vans-en-Valencia-removebg-preview.png" alt="ropa">
         </a>
     </div>
@@ -99,16 +101,45 @@
 
 <!--  Formulario para contacto -->
 
-<section>
-    <h2>TITULO</h2>
-    <form action=""></form>
+<section class="formulario">
+    
+    <div>
+        <h2 class="tt-contacto">¡Contactanos!</h2>
+    </div>
+    <div>
+        <form action="https://formsubmit.co/your@email.com" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input placeholder="Nombre" type="text" id="nombre" name="nombre" required>
+        
+            <label for="email">Email:</label>
+            <input placeholder="E-mail" type="email" id="email" name="email" required>
+        
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        
+            <button class="bt-form" type="submit">Enviar</button>
+        </form>
+    </div>
+
 </section>
 
 
 <!-- FOOTER -->
-<footer>
-    
-</footer>
+<section class="footer">
+        <footer>
+            <h3>Contacto</h3>
+            <a href=""><i class="bi bi-envelope"></i> Kevinarce21@gmail.com</a>
+            <p><i class="bi bi-whatsapp"></i> +54 294-4211288</p>
+        </footer>
+  </section>
+
+
+
+<!-- BOTON DE WSP -->
+<button>
+   
+    <a href="https://wa.me/+542944211288" class="whatsapp" target="_blank"> <i class="bi bi-whatsapp"></i> </a>
+</button>
 
 
 </body>
