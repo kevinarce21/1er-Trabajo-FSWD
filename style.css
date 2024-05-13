@@ -101,7 +101,7 @@ align-items: center;
 
 .Categ-prod{
     background-color: var(--color-primario);
-    height: 400px;
+    height: 430px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,6 +139,7 @@ align-items: center;
     background: linear-gradient(to bottom right,#000000 0%, #925555 50%, #9b2626 80%, #ff0000 100%);
 }
 
+
 .prod-venta h2{
     display: flex;
     align-items: center;
@@ -149,6 +150,7 @@ align-items: center;
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 8px;
 }
+
 
 .prod-venta div{
     display: flex;
@@ -165,7 +167,7 @@ align-items: center;
 
 .boton-compra {
     position: absolute;
-    top: 91%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px 20px;
@@ -180,6 +182,10 @@ align-items: center;
     position: relative;
     display: inline-block;
     transition: transform 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin:10px;
 }
 
 .oferta1:hover img{
@@ -210,7 +216,7 @@ align-items: center;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 500px;
+    height: 550px;
     gap:50px;
     padding: 20px;
     background: linear-gradient(to top right,#000000 0%, #925555 50%, #9b2626 80%, #ff0000 100%)
