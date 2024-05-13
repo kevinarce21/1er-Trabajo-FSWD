@@ -13,12 +13,26 @@
 /* DISEÑO HEADER */
 
 header{
-    background-color: black;
+    background-image: url(https://www.desktopbackground.org/download/1920x1200/2014/11/06/851711_vans-wallpapers_2048x1365_h.jpg) ;
     display: flex;
     justify-content:space-between;
     padding: 30px;
-    border: solid 1px red;
     height: 30px;
+}
+
+li{
+    list-style-type: none;
+    text-decoration: none;
+
+
+}
+
+li a{
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+
 }
 
 header div{
@@ -27,9 +41,9 @@ header div{
 }
 
 header div img{
-    margin-bottom: 50px;
+    margin-top: 0;
     width: auto;
-    max-height: 100px;
+    max-height: 60px;
 }
 
 header div ul{
@@ -46,10 +60,16 @@ header div ul{
     height: 400px;
     display:flex;
     padding: 50px;
-/*     border: solid 1px var(--color-secundario); */
-    background: linear-gradient(to bottom right, #000000 0%, #925555 50%, #d85a5a 80%, #ff0000 100%);
+    background: linear-gradient(to bottom right, #000000 0%, #925555 50%, #9b2626 80%, #ff0000 100%);
+/*     background: linear-gradient(to bottom right, #000000 0%, #925555 50%, #d85a5a 80%, #ff0000 100%); */
 }
 
+.banner h2{
+    font-family: "Nabla", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 50px;
+}
 
 .banner div{
     width: 50%;
@@ -88,16 +108,24 @@ align-items: center;
     gap: 50px;
     padding: 10px;
    /*  border: 1px solid red; */
-    background: linear-gradient(to bottom left, #000000 0%, #925555 50%, #d85a5a 80%, #ff0000 100%);
+    background: linear-gradient(to top right, #000000 0%, #925555 50%, #9b2626 80%, #ff0000 100%);
 }
 
 .Categ-prod div img{
     border-radius: 20px ;
-    border: 1px solid red;
+    border: 1px solid rgb(0, 0, 0);
     transition: transform 0.3s ease;
+    overflow: hidden;
 }
 
 .promo1:hover img{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+.promo2:hover img{
+    transform: scale(1.1);
+}
+.promo3:hover img{
     transform: scale(1.1);
 }
 
@@ -108,7 +136,7 @@ align-items: center;
     background-color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
-    background: linear-gradient(to bottom right, #000000 0%, #925555 50%, #d85a5a 80%, #ff0000 100%);
+    background: linear-gradient(to bottom right,#000000 0%, #925555 50%, #9b2626 80%, #ff0000 100%);
 }
 
 .prod-venta h2{
@@ -116,7 +144,7 @@ align-items: center;
     align-items: center;
     justify-content: center;
     margin: 30px;
-    color: red;
+    color: rgb(255, 255, 255);
     font-size: 60px;
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 8px;
@@ -131,7 +159,7 @@ align-items: center;
 }
 
 .prod-venta div img{
-    border: 1px dashed rgb(218, 10, 10);
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 20px;
 }
 
@@ -151,7 +179,7 @@ align-items: center;
 .oferta1,.oferta2,.oferta3,.oferta4,.oferta5,.oferta6  {
     position: relative;
     display: inline-block;
-    transition: transform 0.3s ease;
+    transition: transform 0.5s ease;
 }
 
 .oferta1:hover img{
@@ -185,13 +213,14 @@ align-items: center;
     height: 500px;
     gap:50px;
     padding: 20px;
-    background: linear-gradient(to bottom left, #000000 0%, #925555 50%, #d85a5a 80%, #ff0000 100%);
+    background: linear-gradient(to top right,#000000 0%, #925555 50%, #9b2626 80%, #ff0000 100%)
 }
 
 form{
     background: linear-gradient(to bottom right, #135319 0%, #2f8348 50%, #68b2b8 80%, #372f61 100%);
     border: none;
     width: 100%;
+
 }
 
 .tt-contacto{
@@ -199,7 +228,7 @@ form{
     font-family: "Bebas Neue", sans-serif;
     font-size: 50px;
     letter-spacing: 6px;
-    color: #ff0000;
+    color: #ffffff;
 }
 
 section div form{
@@ -235,6 +264,7 @@ textarea{
     border-radius: 20px;
     border: 1px solid;
     margin-top: 20px;
+    padding: 10px;
 } 
 
 .bt-form{
@@ -251,15 +281,21 @@ textarea{
 
 /* FOOTER */
 
+
 .footer{
     height: 200px;
     display: flex;
     align-items: end;
     justify-content: flex-start;
-    margin: 30px
+    background: linear-gradient(to bottom left, #000000 0%, #ff0000 50%, #ffffff 50%, rgb(255, 255, 255) 100%);
+}
+.footer h3{
+    margin-bottom: 10px;
 
 }
-
+section footer{
+    margin: 30px;
+}
 
 /* BOTON DE WSP */
 
@@ -269,10 +305,9 @@ textarea{
     right: 60px;
     background-color: #25D366; 
     color: white; 
-    padding: 10px 20px;
-    border-radius: 5px;
-
-    font-size: 26px;
+    padding: 15px ;
+    border-radius: 50%;
+    font-size: 35px;
 }
 
 .whatsapp:hover {

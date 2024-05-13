@@ -10,7 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Squada+One&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" rel="stylesheet">
-   
+    
+    
 </head>
 <body>
 
@@ -18,13 +19,14 @@
 
 
     <header>
-        <div class="header-image"> <img src="images/png-clipart-swag-o-d-brand-icon-set-4-vansoffthewall-vans-off-the-wall-logo-thumbnail-removebg-preview.png" alt="">  </div>
+        <div class="header-image"> <img class="logo-vans" src="images/png-clipart-swag-o-d-brand-icon-set-4-vansoffthewall-vans-off-the-wall-logo-thumbnail-removebg-preview.png" alt="LOGO">  
+        </div>
         <div>
             <nav>
-                <ul>
-                    <li>Inicio</li>
-                    <li>Ofertas</li>
-                    <li>Contacto</li>
+                <ul class="barra-navegacion">
+                    <li><a href="#banner">Inicio</a> </li>
+                    <li><a href="#ofertas">Ofertas</a> </li>
+                    <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
             <!-- <nav>Home</nav>
@@ -34,11 +36,11 @@
 
     <!-- Seccion de banner  -->
 <section class="banner">
-    <div class="texto-banner">
+    <div id="banner" class="texto-banner">
 
-        <h2><strong>¿Quienes somos?</strong></h2>
+        <h2 class="q-somos"><strong>¿Quienes somos?</strong></h2>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam et, voluptatem cupiditate perspiciatis dignissimos incidunt officia veritatis quibusdam quis aperiam excepturi autem delectus ipsam corrupti expedita iure. Dolorum obcaecati porro repudiandae dolore quia excepturi eveniet sit labore nisi a esse placeat possimus, repellat mollitia ad molestias tempora culpa vero fuga.</p>
+        <p>Somos una empresa dedicada a Comercializar toda la ropa, accesorios y zapatillas de la reconocida marca Vans en toda la republica Argentina. De la mano de nuestro equipo podras realizar pedidos atraves de la web y recibirlos completamente en tu domicilio sin necesidad de ir al local</p>
     </div>
     <div class="img-banner">
         <img src="https://assets-global.website-files.com/634a01e3a626bc34a896dcba/64f5ff74987656d398face8b_Zt5xmlDIpolg4upm-m8VPkL8wOdHzcBbfUiim03B_Vg.jpeg" alt="imagen de muestra">
@@ -49,17 +51,19 @@
 
 <section class="Categ-prod"> 
     <div>
+    </div>
+    <div class="fotos-cat">
         <a class="promo1" href="">
             <img src="images/Ropa-Vans-en-Valencia-removebg-preview.png" alt="ropa">
         </a>
     </div>
     <div>
-        <a href="">
+        <a class="promo2" href="">
             <img src="images/VN0A5I13G5O-2-removebg-preview.png" alt="accesorios">
         </a>
     </div>
     <div>
-        <a href="">
+        <a class="promo3" href="">
             <img src="images/c77c2a06864ac9aca38dc5bd9371de015471edcdbf322dfb14411689bf968ae5-removebg-preview.png" alt="zapatills">
         </a>
     </div>
@@ -67,7 +71,7 @@
 
 <!-- Imagen de productos para comprar -->
 
-<section class="prod-venta">
+<section id="ofertas" class="prod-venta">
     <h2>¡OFERTAS!</h2>
     <div class="cont-sup">
         <div class="oferta1">
@@ -125,10 +129,10 @@
 
 
 <!-- FOOTER -->
-<section class="footer">
+<section id="contacto" class="footer">
         <footer>
             <h3>Contacto</h3>
-            <a href=""><i class="bi bi-envelope"></i> Kevinarce21@gmail.com</a>
+            <a href="mailto:kevinarce21@gmail.com"><i class="bi bi-envelope"></i> Kevinarce21@gmail.com</a>
             <p><i class="bi bi-whatsapp"></i> +54 294-4211288</p>
         </footer>
   </section>
